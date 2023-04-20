@@ -118,3 +118,27 @@ button{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
   }
+
+body{
+    background-color: black;
+}
+
+.App{
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: black;     
+}
+
+
+.Player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 261px;
+    border-radius: 20px;
+    background-color: white;
+  }
